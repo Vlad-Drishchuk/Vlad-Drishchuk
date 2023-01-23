@@ -5,7 +5,7 @@
     .preLoader_block{
         background-image: url(https://www.dropbox.com/s/bby8fnxammx3ri6/Mabile1.png?raw=1);
     }
-    @keyframes BackGround{
+    @keyframes Fon{
         0%{
             background-image: url(https://www.dropbox.com/s/bby8fnxammx3ri6/Mabile1.png?raw=1);
         }
