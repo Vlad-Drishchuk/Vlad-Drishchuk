@@ -1,10 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-body{
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');body{
     padding: 0;
     margin: 0;
     animation: Fon 45s infinite forwards;
     background-color: #000;
+            background-image: url(https://www.dropbox.com/s/pzn9sxyg0bbszob/1.png?raw=1);
+
 }
+
 
 @keyframes Fon{
     0%{
@@ -23,11 +25,13 @@ body{
         background-image: url(https://www.dropbox.com/s/pzn9sxyg0bbszob/1.png?raw=1);
     }
 }
-/* LOADING ANIMATION */
-.preLoader_block{
-    animation: Fon 5s infinite forwards;
-
+/*Відступи*/
+header,
+content{
+    padding-left: 7.2%;
+    padding-right: 7.2%;
 }
+/* LOADING ANIMATION */
 .preLoader_block{
     background-color: black;
     width: 100vw;
@@ -35,7 +39,7 @@ body{
     z-index: 1000;
     position: relative;
     animation: EndPreloader .5s ease forwards;
-    animation-delay: 6s;
+    animation-delay: 4.4s;
     overflow: hidden;
 
 }
@@ -56,41 +60,42 @@ body{
     opacity: 0;
 }
 .preLoader_text > span:nth-child(1){
-    animation: WordAdds 1s linear forwards;
-    animation-delay: 0.5s;
+    animation: WordAdds .4s linear forwards;
+    animation-delay: 0.4s;
 }
 .preLoader_text > span:nth-child(2){
-    animation: WordAdds 1s linear forwards;
-    animation-delay: 1s;
+    animation: WordAdds .4s linear forwards;
+    animation-delay: .8s;
 }
 .preLoader_text > span:nth-child(3){
-    animation: WordAdds 1s linear forwards;
-    animation-delay: 1.5s;
+    animation: WordAdds .4s linear forwards;
+    animation-delay: 1.2s;
 }
 .preLoader_text > span:nth-child(4){
-    animation: WordAdds 1s linear forwards;
-    animation-delay: 2s;
+    animation: WordAdds .4s linear forwards;
+    animation-delay: 1.6s;
 }.preLoader_text > span:nth-child(5){
-    animation: WordAdds 1s linear forwards;
-    animation-delay: 2.5s;
+    animation: WordAdds .4s linear forwards;
+    animation-delay: 2s;
 }
 .preLoader_text > span:nth-child(6){
-    animation: WordAdds 1s linear forwards;
-    animation-delay: 3s;
+    animation: WordAdds .4s linear forwards;
+    animation-delay: 2.4s;
 }.preLoader_text > span:nth-child(7){
-    animation: WordAdds 1s linear forwards;
-    animation-delay: 3.5s;
+    animation: WordAdds .4s linear forwards;
+    animation-delay: 2.8s;
 }
 .preLoader_text > span:nth-child(8){
-    animation: WordAdds 1s linear forwards;
-    animation-delay: 4s;
+    animation: WordAdds .4s linear forwards;
+    animation-delay: 3.2s;
 }.preLoader_text > span:nth-child(9){
-    animation: WordAdds 1s linear forwards;
-    animation-delay: 4.5s;
+    animation: WordAdds 0.4s linear forwards;
+    animation-delay: 3.6s;
 }
 .preLoader_text > span:nth-child(10){
-    animation: WordAdds 1s else forwards;
-    animation-delay: 5s;
+    animation: WordAdds .4s linear forwards;
+    animation-delay: 4s;
+    color: #000;
 }
 @keyframes WordAdds{
     0% {opacity: 0;}
@@ -104,7 +109,7 @@ body{
 }
 /*CONTENT*/
 .page{
-    margin-top: -100vh;
+    /*margin-top: -100vh;*/
     animation: Page 1s linear forwards;
     
 }
@@ -114,7 +119,47 @@ body{
 }
 /*HEADER*/
 .page>header{
-    height: 120px;
+    height: 80px;
     width: 100%;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid #fff;
+    position: fixed;
 }
+.title{
+    font-family: 'Vollkorn';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 56px;
+    
+    /* identical to box height */
+    letter-spacing: -0.04em;
+    color: #FFFFFF;
+}
+.menu, header{display: flex;}
+header{padding-top: 65px;}
+.menu{padding-left: 30%; justify-content: space-around; width: 40%;}
+.menu div{
+    height: 56px;
+    width: 8vw; 
+    text-align: center;
+
+
+}
+.menu div:nth-child(4){
+    border: 2px white solid;
+}
+.menu_link{
+    color: #fff;
+    text-decoration-line: none;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    position: absolute;               /* 2 */
+    top: calc(50% + 20px);                         /* 3 */
+    transform: translate(-50%, -50%) 
+}
+.menu_link:hover{
+    text-decoration-line: underline;
+}
+.menu_mobile{display: none;}

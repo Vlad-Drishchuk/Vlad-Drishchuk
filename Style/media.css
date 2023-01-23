@@ -2,9 +2,10 @@
     .preLoader_text > span{
         font-size: 64px;
     }
-    .preLoader_block{
+    .preLoader_block, body{
         background-image: url(https://www.dropbox.com/s/bby8fnxammx3ri6/Mabile1.png?raw=1);
     }
+
     @keyframes Fon{
         0%{
             background-image: url(https://www.dropbox.com/s/bby8fnxammx3ri6/Mabile1.png?raw=1);
@@ -21,5 +22,28 @@
         100%{
             background-image: url(https://www.dropbox.com/s/bby8fnxammx3ri6/Mabile1.png?raw=1);
         }
+    }
+    .menu{
+        display: none;
+    }
+    .menu_mobile{
+        display: block;
+        height: 56px;
+        width: 25%;
+        position: absolute;
+        top: 50%; left: 65%;
+        transform: translate(-50%, -25%); 
+        text-align: center;
+        border: 2px white solid;
+        color: white;
+        font-size: 16px
+    }
+    .menu_mobile a{
+        padding: 20px 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
     }
 }
