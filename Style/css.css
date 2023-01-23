@@ -1,18 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 body{
     padding: 0;
     margin: 0;
+    animation: BackGround 7s linear forwards;
 }
+
+@keyframes BackGround{
+    0%{
+        background-image: url(/Img/BG/Property\ 1=MacBook\ Pro\ 16_\ -\ 1.png);
+    }
+    25%{
+        background-image: url(/Img/BG/Property\ 1=MacBook\ Pro\ 16_\ -\ 2.png);
+    }
+    50%{
+        background-image: url(/Img/BG/Property\ 1=MacBook\ Pro\ 16_\ -\ 3.png);
+    }
+    100%{
+        background-image: url(/Img/BG/Property\ 1=MacBook\ Pro\ 16_\ -\ 4.png);
+    }
+}
+/* LOADING ANIMATION */
 .preLoader_block{
     background-color: white;
+    background-image: url(/Img/BG/Property\ 1=MacBook\ Pro\ 16_\ -\ 1.png);
     width: 100vw;
     height: 100vh;
     z-index: 1000;
     position: relative;
-    animation: EndPreloader .0s linear ease WordAdds;
+    animation: EndPreloader .5s ease forwards;
+    animation-delay: 6s;
+    overflow: hidden;
+
 }
 .preLoader_text{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+.preLoader_text > span{
+    font-family: 'Vollkorn';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 128px;
+    line-height: 178px;
+    letter-spacing: -0.04em;
+    opacity: 0;
+}
+.preLoader_text > span:nth-child(1){
+    animation: WordAdds 1s linear forwards;
+    animation-delay: 0.5s;
+}
+.preLoader_text > span:nth-child(2){
+    animation: WordAdds 1s linear forwards;
+    animation-delay: 1s;
+}
+.preLoader_text > span:nth-child(3){
+    animation: WordAdds 1s linear forwards;
+    animation-delay: 1.5s;
+}
+.preLoader_text > span:nth-child(4){
+    animation: WordAdds 1s linear forwards;
+    animation-delay: 2s;
+}.preLoader_text > span:nth-child(5){
+    animation: WordAdds 1s linear forwards;
+    animation-delay: 2.5s;
+}
+.preLoader_text > span:nth-child(6){
+    animation: WordAdds 1s linear forwards;
+    animation-delay: 3s;
+}.preLoader_text > span:nth-child(7){
+    animation: WordAdds 1s linear forwards;
+    animation-delay: 3.5s;
+}
+.preLoader_text > span:nth-child(8){
+    animation: WordAdds 1s linear forwards;
+    animation-delay: 4s;
+}.preLoader_text > span:nth-child(9){
+    animation: WordAdds 1s linear forwards;
+    animation-delay: 4.5s;
+}
+.preLoader_text > span:nth-child(10){
+    animation: WordAdds 1s else forwards;
+    animation-delay: 5s;
+}
+@keyframes WordAdds{
+    0% {opacity: 0;}
+    100%{opacity: 1}
+}
+
+@keyframes EndPreloader{
+    0%{opacity: 1;}
+    40%{opacity: 0;}
+    100%{opacity: 0;transform: translateX(-110%);}
+}
+/*CONTENT*/
+.page{
+    margin-top: -100vh;
+    animation: Page 1s linear forwards;
+}
+@keyframes Page{
+    0% {opacity: 0;}
+    100%{opacity: 1}
+}
+/*HEADER*/
+.page>header{
+    height: 120px;
+    width: 100%;
+    border-bottom: 1px solid #000;
 }
