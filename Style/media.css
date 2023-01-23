@@ -3,20 +3,20 @@
         font-size: 64px;
     }
     .preLoader_block{
-        background-image: url(/Img/BG/Mabile1.png);
+        background-image: url(https://www.dropbox.com/s/bby8fnxammx3ri6/Mabile1.png?raw=1);
     }
     @keyframes BackGround{
         0%{
-            background-image: url(/Img/BG/Mabile1.png);
+            background-image: url(https://www.dropbox.com/s/bby8fnxammx3ri6/Mabile1.png?raw=1);
         }
         25%{
-            background-image: url(/Img/BG/Mabile2.png);
+            background-image: url(https://www.dropbox.com/s/einynb6qlle3f5a/Mabile2.png?raw=1);
         }
         50%{
-            background-image: url(/Img/BG/Mabile3.png);
+            background-image: url(https://www.dropbox.com/s/19lpyc56v5zjan3/Mabile3.png?raw=1);
         }
         100%{
-            background-image: url(/Img/BG/Mabile4.png);
+            background-image: url(https://www.dropbox.com/s/5y6j943dutu8d5g/Mabile4.png?raw=1);
         }
     }
 }

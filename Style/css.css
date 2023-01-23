@@ -7,22 +7,22 @@ body{
 
 @keyframes BackGround{
     0%{
-        background-image: url(/Img/BG/1.png);
+        background-image: url(https://www.dropbox.com/s/pzn9sxyg0bbszob/1.png?raw=1);
     }
     25%{
-        background-image: url(/Img/BG/2.png);
+        background-image: url(https://www.dropbox.com/s/hbxu1bmgfp2mrdm/2.png?raw=1);
     }
     50%{
-        background-image: url(/Img/BG/3.png);
+        background-image: url(https://www.dropbox.com/s/mka5qay48ib6qea/3.png?raw=1);
     }
     100%{
-        background-image: url(/Img/BG/4.png);
+        background-image: url(https://www.dropbox.com/s/uldo1qy5ec72z5r/4.png?raw=1);
     }
 }
 /* LOADING ANIMATION */
 .preLoader_block{
     background-color: white;
-    background-image: url(/Img/BG/1.png);
+    background-image: url(https://www.dropbox.com/s/pzn9sxyg0bbszob/1.png?raw=1);
     width: 100vw;
     height: 100vh;
     z-index: 1000;
