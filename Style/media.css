@@ -15,8 +15,11 @@
         50%{
             background-image: url(https://www.dropbox.com/s/19lpyc56v5zjan3/Mabile3.png?raw=1);
         }
-        100%{
+        75%{
             background-image: url(https://www.dropbox.com/s/5y6j943dutu8d5g/Mabile4.png?raw=1);
+        }
+        100%{
+            background-image: url(https://www.dropbox.com/s/bby8fnxammx3ri6/Mabile1.png?raw=1);
         }
     }
 }

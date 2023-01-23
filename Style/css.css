@@ -16,14 +16,20 @@ body{
     50%{
         background-image: url(https://www.dropbox.com/s/mka5qay48ib6qea/3.png?raw=1);
     }
-    100%{
+    75%{
         background-image: url(https://www.dropbox.com/s/uldo1qy5ec72z5r/4.png?raw=1);
+    }
+    100%{
+        background-image: url(https://www.dropbox.com/s/pzn9sxyg0bbszob/1.png?raw=1);
     }
 }
 /* LOADING ANIMATION */
 .preLoader_block{
+    animation: Fon 5s infinite forwards;
+
+}
+.preLoader_block{
     background-color: black;
-    background-image: url(https://www.dropbox.com/s/pzn9sxyg0bbszob/1.png?raw=1);
     width: 100vw;
     height: 100vh;
     z-index: 1000;
