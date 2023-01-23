@@ -24,7 +24,7 @@
     100%{
         background-image: url(https://www.dropbox.com/s/pzn9sxyg0bbszob/1.png?raw=1);
     }
-}
+}*/
 /*Відступи*/
 header,
 content{
@@ -109,7 +109,7 @@ content{
 }
 /*CONTENT*/
 .page{
-    /*margin-top: -100vh;*/
+    margin-top: -100vh;
     animation: Page 1s linear forwards;
     
 }
