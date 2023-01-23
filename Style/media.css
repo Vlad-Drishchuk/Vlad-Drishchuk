@@ -3,20 +3,20 @@
         font-size: 64px;
     }
     .preLoader_block{
-        background-image: url(/Img/BG/iPhone\ 14\ Plus\ -\ 1.png);
+        background-image: url(/Img/BG/Mabile1.png);
     }
     @keyframes BackGround{
         0%{
-            background-image: url(/Img/BG/iPhone\ 14\ Plus\ -\ 1.png);
+            background-image: url(/Img/BG/Mabile1.png);
         }
         25%{
-            background-image: url(/Img/BG/iPhone\ 14\ Plus\ -\ 2.png);
+            background-image: url(/Img/BG/Mabile2.png);
         }
         50%{
-            background-image: url(/Img/BG/iPhone\ 14\ Plus\ -\ 3.png);
+            background-image: url(/Img/BG/Mabile3.png);
         }
         100%{
-            background-image: url(/Img/BG/iPhone\ 14\ Plus\ -\ 4.png);
+            background-image: url(/Img/BG/Mabile4.png);
         }
     }
 }

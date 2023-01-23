@@ -7,22 +7,22 @@ body{
 
 @keyframes BackGround{
     0%{
-        background-image: url(/Img/BG/Property\ 1=MacBook\ Pro\ 16_\ -\ 1.png);
+        background-image: url(/Img/BG/1.png);
     }
     25%{
-        background-image: url(/Img/BG/Property\ 1=MacBook\ Pro\ 16_\ -\ 2.png);
+        background-image: url(/Img/BG/2.png);
     }
     50%{
-        background-image: url(/Img/BG/Property\ 1=MacBook\ Pro\ 16_\ -\ 3.png);
+        background-image: url(/Img/BG/3.png);
     }
     100%{
-        background-image: url(/Img/BG/Property\ 1=MacBook\ Pro\ 16_\ -\ 4.png);
+        background-image: url(/Img/BG/4.png);
     }
 }
 /* LOADING ANIMATION */
 .preLoader_block{
     background-color: white;
-    background-image: url(/Img/BG/Property\ 1=MacBook\ Pro\ 16_\ -\ 1.png);
+    background-image: url(/Img/BG/1.png);
     width: 100vw;
     height: 100vh;
     z-index: 1000;
