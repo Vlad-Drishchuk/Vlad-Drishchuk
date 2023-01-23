@@ -5,10 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vlad-Drishchuk</title>
+    <link rel="stylesheet" type="text/css" href="Style/css.css">
 </head>
 <body>
+    <div class="preLoader_block">
+        <div class="preLoader_text">Vlad Drishchuk</div>
+    </div>
     <header>
         
     </header>
+
+
+    <!--JavaScript-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <!--Бібліотека lettring-->
+    <script src="JS/jquery.lettering.js"></script>
+    <script>
+        $(document).ready(function() {
+          $(".preLoader_text").lettering();
+        });
+  </script>
 </body>
 </html>
