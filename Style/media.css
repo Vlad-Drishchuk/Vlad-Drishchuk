@@ -1,49 +1,98 @@
-@media (max-width: 480px){
-    .preLoader_text > span{
-        font-size: 64px;
+@media (max-width: 975px){
+    .wraper {
+        width: 90%;
+        margin-left: 5%;
+        padding: 30px;
+        margin-top: -57px;
     }
-    .preLoader_block, body{
-        background-image: url(https://www.dropbox.com/s/bby8fnxammx3ri6/Mabile1.png?raw=1);
+    .menu ul {
+        display: flex;
+        margin-left: 50px;
+        width: 60%;
+        justify-content: space-around;
+        padding-top: 15px;
     }
-
-    @keyframes Fon{
-        0%{
-            background-image: url(https://www.dropbox.com/s/bby8fnxammx3ri6/Mabile1.png?raw=1);
-        }
-        25%{
-            background-image: url(https://www.dropbox.com/s/einynb6qlle3f5a/Mabile2.png?raw=1);
-        }
-        50%{
-            background-image: url(https://www.dropbox.com/s/19lpyc56v5zjan3/Mabile3.png?raw=1);
-        }
-        75%{
-            background-image: url(https://www.dropbox.com/s/5y6j943dutu8d5g/Mabile4.png?raw=1);
-        }
-        100%{
-            background-image: url(https://www.dropbox.com/s/bby8fnxammx3ri6/Mabile1.png?raw=1);
-        }
-    }
-    .menu{
-        display: none;
-    }
-    .menu_mobile{
-        display: block;
-        height: 56px;
-        width: 25%;
-        position: absolute;
-        top: 50%; left: 65%;
-        transform: translate(-50%, -25%); 
-        text-align: center;
-        border: 2px white solid;
+    .HelloText {
         color: white;
-        font-size: 16px
+        margin-left: 125px;
+        margin-top: 70px;
+        font-size: 20px;
     }
-    .menu_mobile a{
-        padding: 20px 0;
+    .MyIMG {
+        width: 200px;
         position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+        left: 75%;
+        transform:translate(-50%, -50%);
+    }
+    .AboutMe h1, .Projects h1 {
+        font-size: 120px;
+        font-weight: bold;
+        color: #c3c3c3;
+        z-index: 1; /* lower z-index value */
+    }
+    .wrappersRow{
+        display: flex;
+        width: 90%;
+        margin-left: 5%;
+    }
+    .miniWrapper {
+        width: 210px;
+        height: 214px;
+        margin:0 25px;
+        padding: 25px 16px;
+        margin-top: -57px;
+        border-radius: 25px;
+    }
+    .miniWrapper h2{
+        font-size: 24px;
+    }
+}
+@media (max-width: 565px){
+    .wraper {
+        width: 90%;
+        margin-left: 5%;
+        padding: 30px;
+        margin-top: -57px;
+    }
+    .menu ul {
+        display: flex;
+        margin-left: 50px;
+        width: 60%;
+        justify-content: space-around;
+        padding-top: 15px;
+    }
+    .HelloText {
         color: white;
+        margin-left: 125px;
+        margin-top: 70px;
+        font-size: 20px;
+    }
+    .MyIMG {
+        width: 200px;
+        position: absolute;
+        left: 75%;
+        transform:translate(-50%, -50%);
+    }
+    .AboutMe h1, .Projects h1 {
+        font-size: 120px;
+        font-weight: bold;
+        color: #c3c3c3;
+        z-index: 1; /* lower z-index value */
+    }
+    .wrappersRow{
+        display: flex;
+        width: 90%;
+        margin-left: 5%;
+    }
+    .miniWrapper {
+        width: 210px;
+        height: 214px;
+        margin:0 25px;
+        padding: 25px 16px;
+        margin-top: -57px;
+        border-radius: 25px;
+    }
+    .miniWrapper h2{
+        font-size: 24px;
     }
 }
