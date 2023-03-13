@@ -1,0 +1,68 @@
+
+.lineOfTheTitle{
+    height: 300px;
+    background: linear-gradient(45deg, #B993D6 0%, #8CA6DB 100%);
+    position: relative;
+    border-radius: 0px 0px 20px 20px;
+    h3{
+        position: absolute;
+        color: white;
+        top: 30%;
+        left: 30%;
+        margin-left: 0;
+        transform: translate(-50%, -50%);
+        /*FONTS*/
+        font-size: 18px;
+        font-weight: bold;
+    }
+}
+
+.stagger-visualizer {
+    &{
+        position: relative;
+    }
+    position: absolute;
+    left: 75%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
+    height: 10rem;
+    div{
+         /*position: absolute;*/
+        width: 0.58rem;
+        height: 0.58rem;
+        border-radius: 1rem;
+        border: 1px solid #fff;
+        background-color: #fff;
+    }
+  }
+  .content{
+    margin-top: -20px;
+    padding-top: 20px;
+    border-radius: 20px;
+  }
+  @media (max-width:565px){
+    .lineOfTheTitle{
+        height: 100vh;
+        h3{
+            top: 20%;
+            left: 50%;
+            font-size: 25px;
+            width: 100%;
+            margin-left: 25px;
+        }
+        .stagger-visualizer{
+            top:60%;
+            left: 50%;
+        }
+    }
+    .AboutMe{
+        h1{
+            font-size: 60px;
+        }
+    }
+  }

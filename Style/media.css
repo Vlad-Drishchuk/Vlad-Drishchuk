@@ -47,7 +47,7 @@
         font-size: 24px;
     }
 }
-@media (max-width: 565px){
+@media (max-width: 700px){
     .wraper {
         width: 90%;
         margin-left: 5%;
@@ -94,5 +94,66 @@
     }
     .miniWrapper h2{
         font-size: 24px;
+    }
+}
+
+
+@media (max-width:565px){
+    .header-main {
+        height: 100vh;
+        background: linear-gradient(296.82deg, #272838 50%, #382727 100%);
+    }
+    .wraper {
+        width: 90%;
+        margin-left: 5%;
+        padding: 30px;
+        margin-top: -25px;
+    }
+    .menu ul {
+        display: flex;
+        margin-left: 30px;
+        width: 60%;
+        justify-content: space-around;
+        padding-top: 15px;
+    }
+    .HelloText {
+        color: white;
+        margin-left: 40px;
+        margin-top: 70px;
+        font-size: 30px;
+    }
+    .MyIMG {
+        width: 200px;
+        position: absolute;
+        left: 50%;
+        top: calc(100% - 100px);
+        transform:translate(-50%, -50%);
+    }
+    .AboutMe h1, .Projects h1 {
+        font-size: 80px;
+        font-weight: bold;
+        color: #c3c3c3;
+        z-index: 1; /* lower z-index value */
+    }
+    .wrappersRow{
+        display: block;
+        width: 100%;
+    }
+    .miniWrapper {
+        width: 210px;
+        height: 214px;
+        margin-left: calc(50% - 127.5px);
+        padding: 25px 16px;
+        margin-top: -25px;
+        border-radius: 25px;
+    }
+    .secondMini{
+        margin-top: 20px;
+    }
+    .miniWrapper h2{
+        font-size: 24px;
+    }
+    .wraper p{
+        font-size: 17px;
     }
 }
